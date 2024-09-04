@@ -1,0 +1,56 @@
+#main-container {
+    background-color: bisque;
+    max-width: 540px;
+    display: block;
+    margin: auto;
+    padding: 0px 25px 50px;
+}
+
+.container {
+    text-align: center;
+    font-size: 25px;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 32px;
+}
+
+#input-section {
+    margin: 20px 80px;
+    text-align: left;
+}
+
+#height-label { /*to align the two input boxes*/ 
+    margin-right: 5px;
+}
+
+input::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.inuickspan {
+    margin-left: -55px;
+    color: #888;
+}
+
+button {
+    margin: 15px 120px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+
+#disp {
+    color : blue;
+    font-size: 30px;
+}
